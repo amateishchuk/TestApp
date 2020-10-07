@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th onclick="onSortBy('Id')">Id</th>
+                <th onclick="onSortBy('Email')">Email</th>
+                <th onclick="onSortBy('FirstName')">First name</th>
+                <th onclick="onSortBy('LastName')">Last name</th>
+                <th onclick="onSortBy('Address')">Address</th>
+                <th onclick="onSortBy('PhoneNumber')">Phone Number</th>
+                <th onclick="onSortBy('FacebookLink')">Facebook Link</th>
+                <th onclick="onSortBy('TwitterLink')">Twitter Link</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <button onclick="onPage(-1)">Prev</button>
+    <button onclick="onPage(1)">Next</button>
+    <script type="text/javascript" src="https://www.w3schools.com/lib/w3.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
